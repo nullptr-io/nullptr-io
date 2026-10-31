@@ -3,7 +3,7 @@
 # `nullptr-io`
 
 <a href="https://github.com/nullptr-io">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&pause=1000&color=38BDF8&center=true&vcenter=true&width=450&lines=Building+systems+in+the+dark.;Turning+logic+into+architecture.;Low-level+engineering+%26%26+code." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&pause=1000&color=38BDF8&center=true&vcenter=true&width=390&lines=Building+systems+in+the+dark.;Turning+logic+into+architecture.;Low-level+engineering+%26%26+code." alt="Typing SVG" />
 </a>
 
 <br/>
@@ -28,10 +28,12 @@
 ```cpp
 #include <iostream>
 
-namespace Core {
-    struct SystemNode {
-        const char* handle   = "nullptr-io";
-        const char* status   = "Active // Building in the dark";
-        const char* focus    = "Low-Level Systems & Logic";
-    };
-}
+struct SystemNode {
+    const char* id    = "nullptr-io";
+    const char* state = "Active // Dark";
+    const char* core  = "Systems & Logic";
+};
+<div align="center">
+<sub><code>0x00000000 // AWAITING SYSTEM CALLS</code></sub>
+</div>
+```
