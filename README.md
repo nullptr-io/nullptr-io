@@ -33,7 +33,8 @@ struct SystemNode {
     const char* state = "Active // Dark";
     const char* core  = "Systems & Logic";
 };
-<div align="center">
-<sub><code>0x00000000 // AWAITING SYSTEM CALLS</code></sub>
-</div>
 ```
+
+<div align="center">
+  <sub><code>0x00000000 // AWAITING SYSTEM CALLS</code></sub>
+</div>
