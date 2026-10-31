@@ -9,7 +9,7 @@
 <br/>
 <br/>
 
-### `[ TECH STACK & TOOLS ]`
+### `[ SYSTEM ARCHITECTURE & STACK ]`
 
 <p align="center">
   <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
@@ -19,13 +19,19 @@
   <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" />
 </p>
 
+</div>
+
 ---
 
-### `[ TELEMETRY & STATS ]`
+### `[ SYSTEM // INIT ]`
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=nullptr-io&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nullptr-io&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Top Languages" />
-</p>
+```cpp
+#include <iostream>
 
-</div>
+namespace Core {
+    struct SystemNode {
+        const char* handle   = "nullptr-io";
+        const char* status   = "Active // Building in the dark";
+        const char* focus    = "Low-Level Systems & Logic";
+    };
+}
